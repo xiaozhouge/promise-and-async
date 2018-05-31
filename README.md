@@ -1,7 +1,7 @@
 # promise-and-async
 ## 练习promise，下一个异步操作要用到上一个异步的结果
 ```javaScript
-const  p1=()=>{
+   const  p1=()=>{
         let p1_data;
         return new Promise((resolve,reject)=>{
           setTimeout(()=>{
@@ -42,7 +42,7 @@ const  p1=()=>{
 ```
 ## 然后用async语法糖进行封装
 ```javaScript
-const  p1=()=>{
+    const  p1=()=>{
         let p1_data;
         return new Promise((resolve,reject)=>{
           setTimeout(()=>{
